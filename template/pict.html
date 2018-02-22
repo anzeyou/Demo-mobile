@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<style>
+			.sy_t{
+				margin-top: 3.2rem;
+			}
+			img{width: 100%;height: 100%;}
+			button{float:right;margin-top:30px}
+		</style>
+	</head>
+
+	<body>
+		<script src="../js/jquery3.2.1.js"></script>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">图片管理</h1>
+		</header>
+		<script type="text/javascript">
+			//图片的遍历显示
+			$.ajax({
+				type: "get",
+				url: "http://192.168.1.4/aaaa/php/for_img.php",
+				async: true,
+				dataType: 'json',
+
+				success: function(json) {
+					if(json.length) {
+						for(var i = 0; i < json.length; i++) {
+							var image = json[i]['id'];
+							$("#li ").append("<li><img src='http://192.168.1.4/aaaa/picture/" + json[i]['path'] + "'/></li><li onclick='myFunction(" + image + ")'><button type='button' class='mui-btn mui-btn-primary'>删除</button></li>" + "<li onclick='fenx(" + image + ")'><button type='button' class='mui-btn mui-btn-success' id='give'>分享</button></li>");
+
+							//                   <aclass="mui-btn mui-btn-red">删除</a>
+							//                </div
+							//                   "<li>" + item.Name + "<img scr=" + item.Name + "></img>" + "</li>"
+						}
+					}
+				}
+			});
+
+			function myFunction(data) {
+				$.ajax({
+					type: "post",
+					url: "http://192.168.1.4/aaaa/php/delete.php",
+					async: true,
+					data: {
+						"data": data
+					},
+					success: function(e) {
+						if(e == 1) {
+							alert("删除成功")
+						}
+					}
+				});
+			}
+
+				      	function fenx(num){
+			              		 $.ajax({
+							type:"post",
+							url:"http://192.168.1.4/aaaa/php/fx.php",
+							async:true,
+							data:{"id":num},
+							  success:function(e){
+			                      var add=e;
+									alert("picshareaddress:http://192.168.1.4/share/zh.php?id="+e);
+									
+									
+								
+							}
+							
+							 
+			              		 });
+			              	}	
+			//
+		</script>
+
+		<div class="sy_t">
+			<ul id="li" class="mui-table-view" " >
+      
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+//	$("#give").click(function(){
+//		$.ajax({
+//			type:"get",
+//			url:"../php/fx.php",
+//			async:true
+//		});
+//	});
+</script>
+
+
+	</body>
+	
+</html>

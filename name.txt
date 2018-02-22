@@ -1,0 +1,8 @@
+关于php文件：
+delete    删除图片
+for_img   遍历图片进行显示
+login     登录
+pic_upload手机图片上传保存到本地位置
+up  	    将上传的图片保存到数据库
+zhecu     注册      
+关于html文件：

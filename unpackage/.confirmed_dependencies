@@ -1,0 +1,335 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"template/about.html",
+			"template/setting.html",
+			"login.html"
+		],
+		"refer": [
+			"template/guide.html",
+			"template/setting.html",
+			"template/contact.html",
+			"template/chat.html",
+			"template/about.html",
+			"login.html"
+		]
+	},
+	"template/guide.html": {
+		"resources": [
+			"images/index1.png",
+			"images/index2.png",
+			"images/index4.png",
+			"images/index3.png"
+		],
+		"refer": []
+	},
+	"template/setting.html": {
+		"resources": [
+			"images/shuijiao.jpg",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"template/guanli.html",
+			"images/gbRes_5.png",
+			"css/style1.css",
+			"images/gbRes_2.png",
+			"images/gbRes_6.png",
+			"images/gbRes_4.png",
+			"images/gbRes_3.png",
+			"js/jquery3.2.1.js",
+			"js/jquery.min.js",
+			"php/chuan.php",
+			"houtai/images/11.jpg",
+			"template/share.html",
+			"js/ajaxfileupload.js"
+		],
+		"refer": [
+			"template/guanli.html",
+			"template/imageView.html",
+			"template/share.html"
+		]
+	},
+	"template/chat.html": {
+		"resources": [
+			"js/mui.js",
+			"js/tools.js",
+			"images/yuantiao.jpg",
+			"css/app.css",
+			"css/mui.min.css",
+			"images/shuijiao.jpg"
+		],
+		"refer": [
+			"template/detail.html"
+		]
+	},
+	"template/about.html": {
+		"resources": [
+			"js/tools.js",
+			"images/top1.png",
+			"css/swiper-3.4.0.min.css",
+			"images/top4.png",
+			"images/top3.png",
+			"js/swiper-3.4.0.min.js",
+			"images/top2.png",
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"images/img1.jpg",
+			"template/erweima.html",
+			"images/Screenshot_2017-06-01-20-39-50-56_03.jpg",
+			"images/Screenshot_2017-06-01-20-39-50-56_05.jpg",
+			"images/Screenshot_2017-06-01-20-39-50-56_07.jpg",
+			"images/img3.jpg",
+			"images/img2.jpg",
+			"images/4a.jpg",
+			"images/toutiao.jpg",
+			"images/toutiao2.jpg",
+			"images/hudie.jpg",
+			"images/cbd.jpg",
+			"images/muwu.jpg",
+			"images/shuijiao.jpg",
+			"js/back.js",
+			"login.html"
+		],
+		"refer": [
+			"template/detail.html",
+			"template/erweima.html",
+			"login.html"
+		]
+	},
+	"template/detail.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"template/qrcode.html": {
+		"resources": [
+			"js/jquery-1.8.3.min.js",
+			"js/jquery.qrcode.min.js",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"template/contact.html": {
+		"refer": [
+			"template/qrcode.html",
+			"template/imageView.html",
+			"template/shijian.html",
+			"template/readQrcode.html",
+			"template/update.html",
+			"template/register.html",
+			"template/reptile.html",
+			"template/guanli.html",
+			"template/pict.html"
+		],
+		"resources": [
+			"images/shuijiao.jpg",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"template/guanli.html"
+		]
+	},
+	"template/imageView.html": {
+		"resources": [
+			"js/mui.zoom.js",
+			"images/yuantiao.jpg",
+			"css/imageview.css",
+			"js/mui.previewimage.js",
+			"css/mui.css",
+			"js/tools.js",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"template/shijian.html": {
+		"resources": [
+			"js/tools.js",
+			"js/mui.zoom.js",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.previewimage.js",
+			"css/mui.css"
+		],
+		"refer": []
+	},
+	"template/erweima.html": {
+		"resources": [
+			"template/about.html",
+			"js/mui.min.js"
+		],
+		"refer": [
+			"template/about.html"
+		]
+	},
+	"template/readQrcode.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"template/update.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/update.js"
+		],
+		"refer": []
+	},
+	"template/register.html": {
+		"resources": [
+			"js/tools.js",
+			"js/mui.zoom.js",
+			"images/icon-qq.png",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"images/icon-sina.png",
+			"js/mui.previewimage.js",
+			"images/icon-weixin.png",
+			"css/mui.css"
+		],
+		"refer": []
+	},
+	"template/guanli.html": {
+		"resources": [
+			"js/tools.js",
+			"css/swiper-3.4.0.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/swiper-3.4.0.min.js"
+		],
+		"refer": []
+	},
+	"template/login.html": {
+		"resources": [
+			"js/jquery3.2.1.js",
+			"css/swiper-3.4.0.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"js/swiper-3.4.0.min.js",
+			"css/mui.css",
+			"js/app.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"js/mui.enterfocus.js"
+		],
+		"refer": [
+			"template/forget_password.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/jquery3.2.1.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"fonts/mui.ttf",
+			"php/login.php",
+			"js/app.js",
+			"js/mui.enterfocus.js",
+			"images/sinaweibo.png",
+			"images/weixin.png",
+			"images/qq.png",
+			"template/about.html",
+			"index.html",
+			"images.html"
+		],
+		"refer": [
+			"main.html",
+			"forget_password.html",
+			"reg.html",
+			"template/about.html",
+			"index.html",
+			"images.html"
+		]
+	},
+	"main.html": {
+		"refer": [
+			"setting.html"
+		],
+		"resources": [
+			"js/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"setting.html": {
+		"resources": [
+			"css/feedback-page.css",
+			"fonts/mui.ttf",
+			"js/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"forget_password.html": {
+		"resources": [
+			"fonts/mui.ttf"
+		],
+		"refer": []
+	},
+	"reg.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"js/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"js/jquery3.2.1.js",
+			"php/zhecu.php",
+			"login.html",
+			"reg.html",
+			"js/code.js"
+		],
+		"refer": [
+			"login.html",
+			"reg.html"
+		]
+	},
+	"template/share.html": {
+		"resources": [
+			"images/gbRes_5.png",
+			"css/style1.css",
+			"images/gbRes_2.png",
+			"js/jquery.min.js",
+			"images/gbRes_6.png",
+			"images/gbRes_4.png",
+			"images/gbRes_3.png"
+		]
+	},
+	"template/pict.html": {
+		"resources": [
+			"js/jquery3.2.1.js",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}
